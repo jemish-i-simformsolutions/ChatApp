@@ -1,0 +1,56 @@
+.chatarea {
+  width: 400px;
+  min-height: 400px;
+  max-height: 480px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.chatpage {
+  height: 510px;
+  width: 430px;
+  border: 2px solid red;
+  display: block;
+  justify-content: center;
+  background-image: url("https://wallpaperaccess.com/full/1288171.jpg");
+  border-radius: 1%;
+}
+.inputarea {
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  position: absolute;
+}
+.sentmessage {
+  width: fit-content;
+  border: 0.5px gray solid;
+  background-color: honeydew;
+  max-width: 300px;
+}
+.receivedmessage {
+  width: fit-content;
+  border: 0.5px gray solid;
+  background-color: white;
+  max-width: 300px;
+}
+.chattable {
+  width: 400px;
+}
+.chattime {
+  color: rgb(165, 163, 163);
+  font-size: x-small;
+}
+.sendertext {
+  color: honeydew;
+  font-size: larger;
+}
+.chatheader {
+  margin-left: 10px;
+}
+.status {
+  color: white;
+}
